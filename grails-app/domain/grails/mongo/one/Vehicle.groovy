@@ -1,5 +1,8 @@
 package grails.mongo.one
 
+import grails.gorm.annotation.Entity
+
+@Entity
 class Vehicle {
 
     Integer year
@@ -8,7 +11,7 @@ class Vehicle {
     Make make
     Model model
 
-    static mapWith = "mongo"
+    //static mapWith = "mongo"
 
     static constraints = {
         year min: 1900
