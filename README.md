@@ -5,8 +5,8 @@
 * then for the last configs use: https://www.howtoforge.com/tutorial/install-mongodb-on-ubuntu-16.04/
 
 ###### Create required mongo user
-* login: mongo -u root -p root --authenticationDatabase admin
-* change db: use <your database>
+* login: `mongo -u root -p root --authenticationDatabase admin`
+* change db: `use <your database>`
 * create the user in the particular db: 
 ````
 db.createUser(
@@ -19,6 +19,6 @@ db.createUser(
 ````
 
 ###### Run it 
-* gradle clean bootRun
+* `gradle clean bootRun`
 
 

@@ -10,7 +10,7 @@ class VehicleController {
 
     def index() {
         def vehicles = vehicleService.findAll()
-        println("vehicles: $vehicles")
+        //println("vehicles: $vehicles")
         return [vehicles: vehicles]
     }
     //def create() { }
