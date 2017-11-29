@@ -45,7 +45,13 @@ dependencies {
     compile "org.grails.plugins:events"
     compile "org.grails.plugins:mongodb"
     compile "org.grails.plugins:gsp"
+    compile "org.apache.camel:camel-spring-boot-starter:2.20.1"
+    compile "org.springframework.boot:spring-boot-starter-amqp"
+    /*compile "org.apache.camel:camel-core"
+    compile "org.apache.camel:camel-groovy-dsl"*/
+
     console "org.grails:grails-console"
+
     profile "org.grails.profiles:web"
     //provided "org.grails.plugins:embedded-mongodb:1.0.2"
     runtime "com.bertramlabs.plugins:asset-pipeline-grails:2.14.2"

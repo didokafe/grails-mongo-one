@@ -36,6 +36,7 @@
           <element id="library" level="project" name="Gradle: org.grails.plugins:events:3.3.2" />
           <element id="library" level="project" name="Gradle: org.grails.plugins:mongodb:6.1.4" />
           <element id="library" level="project" name="Gradle: org.grails.plugins:gsp:3.3.0" />
+          <element id="library" level="project" name="Gradle: org.apache.camel:camel-spring-boot-starter:2.20.1" />
           <element id="library" level="project" name="Gradle: ch.qos.logback:logback-classic:1.1.11" />
           <element id="library" level="project" name="Gradle: org.slf4j:jcl-over-slf4j:1.7.25" />
           <element id="library" level="project" name="Gradle: org.slf4j:jul-to-slf4j:1.7.25" />
@@ -79,6 +80,8 @@
           <element id="library" level="project" name="Gradle: org.grails:grails-web-gsp-taglib:3.3.0" />
           <element id="library" level="project" name="Gradle: commons-lang:commons-lang:2.6" />
           <element id="library" level="project" name="Gradle: org.grails:grails-plugin-codecs:3.3.1" />
+          <element id="library" level="project" name="Gradle: org.apache.camel:camel-spring-boot:2.20.1" />
+          <element id="library" level="project" name="Gradle: org.apache.camel:camel-core-starter:2.20.1" />
           <element id="library" level="project" name="Gradle: ch.qos.logback:logback-core:1.1.11" />
           <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.2" />
           <element id="library" level="project" name="Gradle: org.springframework:spring-aop:4.3.9.RELEASE" />
@@ -112,6 +115,8 @@
           <element id="library" level="project" name="Gradle: org.mongodb:mongodb-driver:3.4.3" />
           <element id="library" level="project" name="Gradle: org.grails:grails-datastore-gorm-bson:6.1.4.RELEASE" />
           <element id="library" level="project" name="Gradle: org.grails:grails-codecs:3.3.1" />
+          <element id="library" level="project" name="Gradle: org.apache.camel:camel-spring:2.20.1" />
+          <element id="library" level="project" name="Gradle: org.apache.camel:camel-core:2.20.1" />
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.8.0" />
           <element id="library" level="project" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.8.10" />
           <element id="library" level="project" name="Gradle: org.codehaus.groovy:groovy-json:2.4.11" />
@@ -121,8 +126,19 @@
           <element id="library" level="project" name="Gradle: commons-validator:commons-validator:1.5.1" />
           <element id="library" level="project" name="Gradle: org.mongodb:mongodb-driver-core:3.4.3" />
           <element id="library" level="project" name="Gradle: commons-codec:commons-codec:1.10" />
+          <element id="library" level="project" name="Gradle: com.sun.xml.bind:jaxb-core:2.2.11" />
+          <element id="library" level="project" name="Gradle: com.sun.xml.bind:jaxb-impl:2.2.11" />
           <element id="library" level="project" name="Gradle: commons-collections:commons-collections:3.2.2" />
           <element id="library" level="project" name="Gradle: org.mongodb:bson:3.5.0" />
+          <element id="library" level="project" name="Gradle: org.apache.httpcomponents:httpclient:4.5.3" />
+          <element id="library" level="project" name="Gradle: org.apache.httpcomponents:httpcore:4.4.6" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-amqp/1.5.7.RELEASE/d63edc2944394a6b434dafcd264ebfb1e720be64/spring-boot-starter-amqp-1.5.7.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-messaging/4.3.9.RELEASE/a8c3bc6271b67102bc192e530257d3347e8d7b93/spring-messaging-4.3.9.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.amqp/spring-rabbit/1.7.4.RELEASE/9e51b2be1572887e0938a170949be7aaa0c90b30/spring-rabbit-1.7.4.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.rabbitmq/http-client/1.1.1.RELEASE/a3c71766981a70137aa4570e3830c542a7631d3e/http-client-1.1.1.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.rabbitmq/amqp-client/4.0.3/d60d606e214b98c7d4a7e7f96d20b6aec569d7a3/amqp-client-4.0.3.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.retry/spring-retry/1.2.1.RELEASE/c43fedb7dfc7e0483679c2f20e09776d98f0813f/spring-retry-1.2.1.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.amqp/spring-amqp/1.7.4.RELEASE/5dc0c4105246c528108f7689b4dadf2a7c24ea52/spring-amqp-1.7.4.RELEASE.jar" />
         </element>
       </element>
     </root>

@@ -6,14 +6,14 @@
 
 ###### Create required mongo user
 * login: `mongo -u root -p root --authenticationDatabase admin`
-* change db: `use <your database>`
+* change db: `use grails-mongo-one`
 * create the user in the particular db: 
 ````
 db.createUser(
  {
-   user: "userName",
-   pwd: "password",
-   roles: [ "readWrite", "<your database>" ]
+   user: "grails",
+   pwd: "grails",
+   roles: [ "readWrite", "grails-mongo-one" ]
  }
 )
 ````

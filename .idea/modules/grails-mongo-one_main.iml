@@ -62,6 +62,8 @@
     <orderEntry type="library" name="Gradle: org.grails.plugins:events:3.3.2" level="project" />
     <orderEntry type="library" name="Gradle: org.grails.plugins:mongodb:6.1.4" level="project" />
     <orderEntry type="library" name="Gradle: org.grails.plugins:gsp:3.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.camel:camel-spring-boot-starter:2.20.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-amqp:1.5.7.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.1.11" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:jcl-over-slf4j:1.7.25" level="project" />
     <orderEntry type="library" name="Gradle: org.slf4j:jul-to-slf4j:1.7.25" level="project" />
@@ -105,12 +107,16 @@
     <orderEntry type="library" name="Gradle: org.grails:grails-web-gsp-taglib:3.3.0" level="project" />
     <orderEntry type="library" name="Gradle: commons-lang:commons-lang:2.6" level="project" />
     <orderEntry type="library" name="Gradle: org.grails:grails-plugin-codecs:3.3.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.camel:camel-spring-boot:2.20.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.camel:camel-core-starter:2.20.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-messaging:4.3.9.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.amqp:spring-rabbit:1.7.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: ch.qos.logback:logback-core:1.1.11" level="project" />
     <orderEntry type="library" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-aop:4.3.9.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework:spring-expression:4.3.9.RELEASE" level="project" />
-    <orderEntry type="library" name="Gradle: org.codehaus.groovy:groovy-xml:2.4.11" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.bertramlabs.plugins:asset-pipeline-core:2.14.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.codehaus.groovy:groovy-xml:2.4.11" level="project" />
     <orderEntry type="library" name="Gradle: org.codehaus.groovy:groovy-templates:2.4.11" level="project" />
     <orderEntry type="library" name="Gradle: org.yaml:snakeyaml:1.17" level="project" />
     <orderEntry type="library" name="Gradle: javax.transaction:jta:1.1" level="project" />
@@ -138,6 +144,12 @@
     <orderEntry type="library" name="Gradle: org.mongodb:mongodb-driver:3.4.3" level="project" />
     <orderEntry type="library" name="Gradle: org.grails:grails-datastore-gorm-bson:6.1.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.grails:grails-codecs:3.3.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.camel:camel-spring:2.20.1" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.camel:camel-core:2.20.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.rabbitmq:http-client:1.1.1.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: com.rabbitmq:amqp-client:4.0.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.retry:spring-retry:1.2.1.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework.amqp:spring-amqp:1.7.4.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.8.0" level="project" />
     <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.8.10" level="project" />
     <orderEntry type="library" name="Gradle: org.codehaus.groovy:groovy-json:2.4.11" level="project" />
@@ -147,7 +159,11 @@
     <orderEntry type="library" name="Gradle: commons-validator:commons-validator:1.5.1" level="project" />
     <orderEntry type="library" name="Gradle: org.mongodb:mongodb-driver-core:3.4.3" level="project" />
     <orderEntry type="library" name="Gradle: commons-codec:commons-codec:1.10" level="project" />
+    <orderEntry type="library" name="Gradle: com.sun.xml.bind:jaxb-core:2.2.11" level="project" />
+    <orderEntry type="library" name="Gradle: com.sun.xml.bind:jaxb-impl:2.2.11" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpclient:4.5.3" level="project" />
     <orderEntry type="library" name="Gradle: commons-collections:commons-collections:3.2.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpcore:4.4.6" level="project" />
     <orderEntry type="library" name="Gradle: org.mongodb:bson:3.5.0" level="project" />
   </component>
 </module>

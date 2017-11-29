@@ -1,12 +1,14 @@
 
-/*grails {
-    mongodb {
-        host = "localhost"
-        port = 27017
-        username = "root"
-        password = "root"
-        databaseName = "grails-mongo-one"
-        mechanism = "SCRAM_SHA_1"
-
-    }
-}*/
+/*
+grails.plugin.springsecurity.filterChain.chainMap = [
+        //Stateless chain
+        [
+                pattern: '/api/**',
+                filters: 'JOINED_FILTERS,-anonymousAuthenticationFilter,-exceptionTranslationFilter,-authenticationProcessingFilter,-securityContextPersistenceFilter,-rememberMeAuthenticationFilter'
+        ],
+        //Traditional chain
+        [
+                pattern: '/**',
+                filters: 'JOINED_FILTERS,-restTokenValidationFilter,-restExceptionTranslationFilter'
+        ]
+]*/
